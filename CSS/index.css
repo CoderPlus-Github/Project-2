@@ -1,0 +1,100 @@
+/* css Reset  */
+body { margin: 0px; padding: 0px;;}
+
+/* styling header  */
+header { background-color: black; height: 650px; width: 100%; }
+
+/* styling nav  */
+nav { position: sticky; }
+
+/* Styling the Left Nav  */
+.left { display: inline-block; color: white; width: 25%; height: 40px; font-family: 'Nunito', sans-serif; }
+.logo { width: 45px; padding-left: 10px; }
+.head { display: inline-block; font-size: 24px; }
+
+/* styling the Mid Nav  */
+.mid { display: inline-block; color: white; width: 49%; margin: auto; height: 40px; }
+.list { list-style: none; }
+li { text-decoration: none; display: inline-block; color: white; text-align: center; padding-left: 30px; font-family: 'Oswald', sans-serif; word-spacing: 1px; padding-bottom: 50px; }
+.active { font-size: 20px; font-weight: lighter; }
+
+
+/* Styling the Right Nav  */
+.right { font-family: 'Oswald', sans-serif; display: inline-block; color: white; position: absolute; width: 25%; padding-top: 28px; }
+.nav { float: right; margin-right: 5px; width: 25px; }
+.nav2 { float: right; margin-right: 15px; padding-right: 8px; border-right: white 1px solid; padding-top: 5px; padding-bottom: 5px; }
+.nav:hover { cursor: pointer; }
+
+/* styling the highlight */
+.highlight { color: white; padding-top: 20px; padding-left: 40px; font-family: 'Montserrat', sans-serif; font-size: 80px; margin: 0px; margin-top: 90px; }
+
+/* styling the midlight */
+.midlight { color: white; padding-left: 40px; font-size: 20px; font-family: 'Source Sans Pro', sans-serif; font-weight: bold; }
+
+/* styling button  */
+.btn { margin-left: 35px; margin-top: 20px; padding: 15px; width: 300px; border-style: solid; border-color: black; border-radius: 100px; color: white; background: rgb(2, 0, 36); background: rgb(10,83,207); background: linear-gradient(90deg, rgba(10,83,207,1) 15%, rgba(15,223,214,1) 87%); cursor: pointer; transition: 1s; }
+.btn:hover { background: rgb(15,223,214); background: linear-gradient(90deg, rgba(15,223,214,1) 18%, rgba(47,111,219,1) 85%); cursor: pointer; }
+
+/* Body Styling */
+.title { font-family: 'Poppins', sans-serif; font-size: 30px; }
+.article { font-family: 'Nunito', sans-serif; color: black; font-weight: bold; margin-bottom: 20px;}
+.section { color: black; }
+.title2 { font-family: 'Poppins', sans-serif; font-size: 20px; }
+.card { box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); font-family: 'Titillium Web', sans-serif; font-size: 15px; background-color: white; display: inline-block; width: 380px; height: 340px; margin-left: 20px; margin-bottom: 40px; margin-top: 20px; border-radius: 20px; }
+.img { width: 70px; margin-top: 30px; }
+
+.ourprograms { text-align: center; padding-top: 10px; background-color: rgb(228, 228, 228);}
+.btn2 { border: 1px solid gray; border-radius: 5px; color: black; background-color: white; padding: 10px; padding-bottom: 40px; width: 200px; height: 40px; font-family: 'Titillium Web', sans-serif; font-size: 18px; font-weight: bolder; }
+.btn2:hover { background-color:rgb(49, 192, 49); cursor: pointer; color: white; border-color: white; transition: 0.25s;}
+
+.slogan { font-family: 'Montserrat', sans-serif; background-color: black; height: 450px; width: 100%; text-align: center; padding-top: 30px;}
+
+.class-schedule { text-align: center; padding-top: 30px; background-color: rgb(228, 228, 228); }
+.card2 { box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); font-family: 'Titillium Web', sans-serif; background-color: white; display: inline-block; width: 200px; height: 190px; border-radius: 20px; line-height: 7px; margin-left: 20px; margin-bottom: 30px; }
+.title3 { font-family: 'Poppins', sans-serif; font-size: 20px; }
+.img2 { width: 50px; margin-top: 20px; margin-bottom: 30px; }
+
+.trainers { text-align: center; padding-top: 30px; background-color: white; }
+.card3 { box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);font-family: 'Titillium Web', sans-serif; font-size: 15px; background-color: rgb(228, 228, 228); display: inline-block; width: 380px; height: 340px; margin-left: 20px; margin-bottom: 40px; margin-top: 20px; border-radius: 20px; }
+.img3 { width: 80px; margin-top: 20px; }
+
+.offer { font-family: 'Montserrat', sans-serif; background-color: black; height: 500px; width: 100%; text-align: center; }
+.offercard { width: 550px; height: 500px; background-color: rgb(34, 26, 26); margin-left: 80px; }
+.highlight2 { color: white; font-family: 'Montserrat', sans-serif; font-size: 80px; margin: 0px; padding-top: 30px; }
+.btn3 { margin-top: 20px; padding: 15px; width: 300px; border-style: solid; border-color: #34495e ; border-radius: 100px; color: white;background: rgb(10,83,207); background: linear-gradient(90deg, rgba(10,83,207,1) 15%, rgba(15,223,214,1) 87%); font-family: 'Montserrat', sans-serif; }
+.btn3:hover { background: rgb(15,223,214); background: linear-gradient(90deg, rgba(15,223,214,1) 18%, rgba(47,111,219,1) 85%); cursor: pointer; }
+.midlight2 { color: white; font-size: 20px;text-align: center; font-family: 'Source Sans Pro', sans-serif; }
+.nav3 { margin-right: 5px; width: 35px; }
+
+.join { font-family: 'Montserrat', sans-serif; background: rgb(55,55,55); background: linear-gradient(90deg, rgba(55,55,55,1) 45%, rgba(90,114,139,1) 74%); height: 450px; width: 100%; }
+.box { padding: 60px; text-align: center; padding-top: 50px; margin: 0px; }
+.box h1 { color: white; text-transform: uppercase; font-weight: 500; }
+.input { font-family: 'Montserrat', sans-serif; border: 0px; background: white; display: block; margin: 20px auto; text-align: center; border: 2px solid #3498db; padding: 14px 10px;  width: 200px; outline: none; color: white; border-radius: 24px; transition: 0.25s; }
+.input:focus { width: 280px; border-color: #2ecc71; }
+.submit { border: 0px; background: none; display: block; margin: 20px auto; text-align: center; border: 2px solid #2ecc71; padding: 14px 40px;  outline: none; color: white; border-radius: 24px; transition: 0.25s; cursor: pointer; font-family: 'Montserrat', sans-serif; }
+.submit:hover {  background-color:#2ecc71; cursor: pointer; }
+.formcard { background-color: none; display: inline-block; width: 50%; height: 450px; text-align: center;}
+.form { background-color: none; display: inline-block; width: 50%; height: 450px; float: right; }
+.highlight3 { color: white; font-family: 'Montserrat', sans-serif; font-size: 80px; margin: 0px; padding-top: 50px;}
+
+.pricingplans { text-align: center; padding-top: 30px; background-color: rgb(228, 228, 228); }
+.btn4 { border: 1px solid gray; border-radius: 5px; color: black; background-color: white; padding: 10px; width: 200px; height: 40px; font-family: 'Titillium Web', sans-serif; font-size: 18px; font-weight: bolder; }
+.btn4:hover { background-color:rgb(49, 192, 49); cursor: pointer; color: white; border-color: white; transition: 0.25s;}
+
+footer { background-color: rgb(70, 70, 70); }
+.title9 { font-family: 'Poppins', sans-serif; font-size: 25px; color: white; }
+.article2 { font-family: 'Nunito', sans-serif; color: white; margin-bottom: 20px;}
+.fdiv { display: inline-block; width: 25%; margin-left: 60px; margin-right: 20px ; height: 200px; padding-bottom: 20px; padding-top: 20px; }
+.fdiv1 { display: inline-block; width: 27%; margin-left: 60px; margin-right: 20px ; height: 200px; padding-bottom: 25px; padding-top: 20px; }
+.fdiv3 { display: inline-block; width: 27%; margin-left: 60px; margin-right: 20px ; height: 200px; padding-bottom: 20px; padding-top: 20px; }
+.input2 { font-family: 'Montserrat', sans-serif; border: 0px; background: white; display: block; margin: auto; text-align: center; border: 2px solid #3498db; padding: 14px 10px;margin-bottom: 20px;  width: 300px; outline: none; color: white; border-radius: 24px; transition: 0.25s; }
+.input2:focus { width: 280px; border-color: #2ecc71; }
+.submit2 { border: 0px; background: none; display: block; margin: 20px auto; text-align: center; border: 2px solid #2ecc71; padding: 14px 40px;  outline: none; color: white; border-radius: 24px; transition: 0.25s; cursor: pointer; font-family: 'Montserrat', sans-serif; }
+.submit2:hover {  background-color:#2ecc71; cursor: pointer; }
+.foot { width: 30px; margin: auto; margin-top: 20px; }
+.foot2 { padding-left: 600px; width: 30px; margin: auto; margin-top: 20px; }
+.footp { font-family: 'Nunito', sans-serif; color: white; padding-bottom: 20px; padding-top: 20px; text-align: center;}
+
+
+
+
